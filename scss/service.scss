@@ -1,0 +1,165 @@
+.service{
+  background: radial-gradient(170.43% 169.23% at 47.29% 0%, rgba(0, 49, 223, 0.6) 0%, rgba(0, 0, 0, 0) 100%), #000000;
+  padding-top: 156px;
+  padding-bottom: 156px;
+  margin-top: -49px;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .service-container_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 36px;
+    color: #FFFFFF;
+    span{
+      font-weight: 800;
+    }
+  }
+  h3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 158px;
+        text-transform: uppercase;
+        background: linear-gradient(179.61deg, #0031DF 0.34%, #CC00FF 135.49%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+  }
+  p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 291px;
+  }
+  .second-item{
+    h3{
+      background: linear-gradient(179.61deg, #6200DF 0.34%, #FF00C7 135.49%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+    }
+  }
+  .third-item{
+    h3{
+      background: linear-gradient(179.61deg, #C60A9D 0.34%, #FE013E 135.49%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+    }
+  }
+}
+
+.service-container_items{
+  br{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .service{
+    .service-container{
+      .service-content{
+        .service-container_title{
+        }
+        .service-container_items{
+          h3{
+            font-size: 60px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .service{
+    margin-top: 0px;
+    .service-container{
+      .service-content{
+        .service-container_title{
+          width: 100%;
+          font-size: 44px;
+        }
+        .service-container_items{
+          h3{
+          font-size: 65px;
+          width: 100%;
+        }
+          p{
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 680px){
+  .service{
+    .service-container{
+      .service-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .service-container_title{
+          font-size: 30px;
+          line-height: 32px;
+          text-align: center;
+          width: 60%;
+          margin-bottom: 10px;
+        }
+        .service-container_items{
+          h3{
+            font-weight: 800;
+            font-size: 60px;
+            line-height: 52px;
+            text-align: center;
+            text-transform: uppercase;
+            background: linear-gradient(179.61deg, #0031DF 0.34%, #CC00FF 135.49%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            padding-top: 32px;
+          }
+          p{
+            width: 320px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 24px;
+          }
+            br{
+              display: initial;
+            }
+        }
+      }
+    }
+  }
+}
+
+.header{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.main{
+  //display: none;
+  //padding: 0 15px;
+}

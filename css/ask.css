@@ -1,0 +1,319 @@
+.ask-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 132px;
+}
+.ask-container .ask-content {
+  width: 1120px;
+  height: 1830px;
+  background: #EDEFF2;
+  border-radius: 40px;
+}
+.ask-container .ask-content .ask-content_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ask-container .ask-content .ask-content_title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 82px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+  margin-top: 213px;
+}
+.ask-container .ask-content .ask-content_title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+  width: 693px;
+  margin-top: 24px;
+}
+
+.ask-content__items .ask-content__items_step {
+  margin-left: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 47px;
+}
+.ask-content__items .ask-content__items_step .items_step_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 220px;
+  height: 160px;
+  background: radial-gradient(143.65% 143.65% at 53.08% 43.11%, rgba(0, 49, 223, 0.6) 0%, rgba(0, 0, 0, 0) 100%), #000000;
+  -webkit-box-shadow: inset 0px 4px 0px rgba(0, 56, 255, 0.52);
+          box-shadow: inset 0px 4px 0px rgba(0, 56, 255, 0.52);
+  border-radius: 20px;
+  margin-top: 46px;
+  z-index: 1;
+}
+.ask-content__items .ask-content__items_step .ask-content__items_step_text {
+  width: 686px;
+  height: 136px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-left: -20px;
+}
+.ask-content__items .ask-content__items_step .ask-content__items_step_text h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+.ask-content__items .ask-content__items_step .ask-content__items_step_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+.ask-content__items .ask-content__items_step .language_step_text {
+  width: 434px;
+}
+.ask-content__items .ask-content__items_step .nlp_step_text {
+  width: 343px;
+}
+.ask-content__items .ask-content__items_step .health_step_text {
+  width: 425px;
+}
+.ask-content__items .ask-content__items_step .vision_step_text {
+  width: 728px;
+}
+.ask-content__items .ask-content__items_step .items_step_line {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 39px;
+}
+.ask-content__items .language-items_step .items_step_image {
+  margin-left: 110px;
+}
+.ask-content__items .nlp-items_step .items_step_image {
+  margin-left: 220px;
+}
+.ask-content__items .health-items_step .items_step_image {
+  margin-left: 110px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .ask-container .ask-content {
+    margin-top: 330px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .ask-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 510px;
+  }
+  .ask-container .ask-content {
+    width: 100%;
+    border-radius: initial;
+    height: 2306px;
+    margin-top: 0;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
+    margin-left: 25px;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text {
+    width: 750px;
+    text-align: center;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .items_step_image {
+    margin-bottom: -15px;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .items_step_line {
+    display: none;
+  }
+  .ask-container .ask-content .ask-content__items .language-items_step .items_step_image {
+    margin-left: 0px;
+  }
+  .ask-container .ask-content .ask-content__items .nlp-items_step .items_step_image {
+    margin-left: 0px;
+  }
+  .ask-container .ask-content .ask-content__items .health-items_step .items_step_image {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ask-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 510px;
+  }
+  .ask-container .ask-content {
+    width: 100%;
+    border-radius: initial;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text {
+    width: 550px;
+    text-align: center;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text h3 {
+    font-size: 24px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text p {
+    margin-left: 0;
+  }
+  .ask-container .ask-content .ask-content__items .ask-content__items_step .items_step_image {
+    margin-bottom: -15px;
+  }
+  .ask-container .ask-content .ask-content__items .language-items_step .items_step_image {
+    margin-left: 0px;
+  }
+  .ask-container .ask-content .ask-content__items .nlp-items_step .items_step_image {
+    margin-left: 0px;
+  }
+  .ask-container .ask-content .ask-content__items .health-items_step .items_step_image {
+    margin-left: 0px;
+  }
+  .ask-container .ask-content .ask-content_title p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .ask .ask-container {
+    width: 100%;
+    padding: 0;
+  }
+  .ask .ask-container .ask-content .ask-content_title h2 {
+    margin-top: 78px;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .ask .ask-container .ask-content .ask-content_title p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 311px;
+  }
+  .ask .ask-container .ask-content .ask-content_title p br {
+    display: none;
+  }
+  .ask .ask-container .ask-content .ask-content__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .items_step_image {
+    margin-left: -20px;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text {
+    width: 311px;
+    height: 168px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text h3 {
+    margin-left: 0;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .ask-content__items_step_text p {
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 263px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .nlp_step_text {
+    height: 116px;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .health_step_text {
+    height: 140px;
+  }
+  .ask .ask-container .ask-content .ask-content__items .ask-content__items_step .vision_step_text {
+    height: 125px;
+  }
+}

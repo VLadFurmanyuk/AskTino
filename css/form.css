@@ -1,0 +1,170 @@
+.ask-form {
+  background-image: url("../images/main/background.png");
+  background-size: cover;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+.ask-form .ask-form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.second-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.second-form .second-form__container_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.second-form .second-form_input {
+  width: 352px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  margin-top: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 0.49);
+  padding-left: 16px;
+  -webkit-transition: -webkit-box-shadow 500ms ease-in-out;
+  transition: -webkit-box-shadow 500ms ease-in-out;
+  transition: box-shadow 500ms ease-in-out;
+  transition: box-shadow 500ms ease-in-out, -webkit-box-shadow 500ms ease-in-out;
+}
+.second-form .second-form_input:focus {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 0px 0px 11px 1px #af9b9d;
+          box-shadow: 0px 0px 11px 1px #af9b9d;
+}
+.second-form .second-form_input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.16);
+}
+.second-form .second-form_input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.16);
+}
+.second-form .second-form_input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.16);
+}
+.second-form .second-form_input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.16);
+}
+.second-form .second-form_input::placeholder {
+  color: rgba(0, 0, 0, 0.16);
+}
+.second-form .second-form_input:focus::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.49);
+}
+.second-form .second-form_input:focus::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.49);
+}
+.second-form .second-form_input:focus:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.49);
+}
+.second-form .second-form_input:focus::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.49);
+}
+.second-form .second-form_input:focus::placeholder {
+  color: rgba(0, 0, 0, 0.49);
+}
+.second-form .second-form__container_buttons {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.second-form .second-form__container_buttons .container__buttons_left {
+  width: 352px;
+  height: 58px;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.second-form .second-form__container_buttons .container__buttons_right {
+  width: 352px;
+  height: 58px;
+  background: #1E1E1E;
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  .ask-form {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+  .ask-form .ask-form-container {
+    width: 100%;
+  }
+  .ask-form .ask-form-container .second-form_input {
+    width: 90%;
+    margin-top: 8px;
+  }
+  .ask-form .ask-form-container .ask-form-content .second-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ask-form .ask-form-container .ask-form-content img {
+    display: none;
+  }
+  .ask-form .ask-form-container .ask-form-content .second-form .second-form__container_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+  .ask-form .ask-form-container .second-form__container_buttons {
+    width: 90%;
+  }
+  .ask-form .ask-form-container .second-form__container_buttons .container__buttons_left {
+    width: 100%;
+  }
+  .ask-form .ask-form-container .second-form__container_buttons .container__buttons_right {
+    width: 100%;
+  }
+}

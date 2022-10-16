@@ -1,0 +1,82 @@
+@import "variables";
+
+.container{
+  //width: 1316px;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header{
+  //background-color: $header-color;
+  background: linear-gradient(270.08deg, #032084 -13.38%, rgba(3, 32, 132, 0) 49.93%), #000000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  //display: flex;
+  //flex-direction: column;
+  .header-container{
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    //flex-direction: column;
+  }
+  .header-left{
+    width: 100%;
+  }
+  .header-right{
+    width: 100%;
+    background-color: red;
+  }
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px){
+  .container{
+    width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .container{
+    width: 720px;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .header{
+    //background-color: ;
+    padding: 0;
+  }
+  .container{
+    width: 100%;
+    padding: 0 15px;
+  }
+  .header-container{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    .header-container-left{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 28px;
+      padding-bottom: 28px;
+      background-color: #000000;
+    }
+    .header-container-right{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 29px;
+      padding-bottom: 29px;
+      background: linear-gradient(268.87deg, #032084 1.94%, rgba(3, 32, 132, 0) 100%), #000000;
+    }
+  }
+}

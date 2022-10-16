@@ -1,0 +1,145 @@
+.ask-form{
+  background-image: url("../images/main/background.png");
+  background-size: cover;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  .ask-form-container{
+    display: flex;
+    justify-content: center;
+    .ask-form-content{
+
+    }
+  }
+}
+
+.second-form{
+  display: flex;
+  flex-direction: column;
+  .second-form__container_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .second-form_input{
+    width: 352px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    margin-top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.49);
+    padding-left: 16px;
+    transition: box-shadow 500ms ease-in-out;
+    &:focus{
+      outline: none;
+      border: 1px solid rgba(0, 0, 0, 0.49);
+      box-shadow: 0px 0px 11px 1px #af9b9d;
+    }
+    &::placeholder{
+      color: rgba(0, 0, 0, 0.16);
+
+    }
+    &:focus::placeholder {
+      color: rgba(0, 0, 0, 0.49);
+    }
+  }
+  .second-form__container_buttons{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    .container__buttons_left{
+      width: 352px;
+      height: 58px;
+      border: 1px solid #FFFFFF;
+      background-color: transparent;
+      border-radius: 6px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 48px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .container__buttons_right{
+      width: 352px;
+      height: 58px;
+      background: #1E1E1E;
+      border-radius: 6px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 48px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 575px){
+  .ask-form{
+    padding-top: 88px;
+    padding-bottom: 88px;
+    .ask-form-container{
+      width: 100%;
+      .second-form_input{
+        width: 90%;
+        margin-top: 8px;
+      }
+      .ask-form-content{
+        .second-form{
+          display: flex;
+          align-items: center;
+        }
+        img{
+          display: none;
+        }
+        .second-form{
+          .second-form__container_title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 65px;
+            line-height: 48px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+          }
+        }
+      }
+      .second-form__container_buttons{
+        width: 90%;
+        .container__buttons_left{
+          width: 100%;
+        }
+        .container__buttons_right{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

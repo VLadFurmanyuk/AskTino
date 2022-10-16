@@ -1,0 +1,92 @@
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(270.08deg, #032084 -13.38%, rgba(3, 32, 132, 0) 49.93%), #000000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header .header-left {
+  width: 100%;
+}
+.header .header-right {
+  width: 100%;
+  background-color: red;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .header {
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .header-container {
+    width: 100%;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-container .header-container-left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #000000;
+  }
+  .header-container .header-container-right {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    background: linear-gradient(268.87deg, #032084 1.94%, rgba(3, 32, 132, 0) 100%), #000000;
+  }
+}

@@ -1,0 +1,312 @@
+.ask-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 132px;
+.ask-content{
+  width: 1120px;
+  height: 1830px;
+  background: #EDEFF2;
+  border-radius: 40px;
+  .ask-content_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-top: 213px;
+  }
+  p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    width: 693px;
+    margin-top: 24px;
+  }
+  }
+}
+}
+
+.ask-content__items{
+  .ask-content__items_step{
+    margin-left: 106px;
+    display: flex;
+    margin-top: 47px;
+    .items_step_image{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 220px;
+      height: 160px;
+      background: radial-gradient(143.65% 143.65% at 53.08% 43.11%, rgba(0, 49, 223, 0.6) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+      box-shadow: inset 0px 4px 0px rgba(0, 56, 255, 0.52);
+      border-radius: 20px;
+      margin-top: 46px;
+      z-index: 1;
+    }
+    .ask-content__items_step_text{
+      width: 686px;
+      height: 136px;
+      background: #FFFFFF;
+      border-radius: 20px;
+      margin-left: -20px;
+      h3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #333333;
+        margin-left: 40px;
+        padding-top: 30px;
+      }
+      p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        margin-left: 40px;
+        margin-top: 8px;
+      }
+    }
+    .language_step_text{
+      width: 434px;
+    }
+    .nlp_step_text{
+      width: 343px;
+    }
+    .health_step_text{
+      width: 425px;
+    }
+    .vision_step_text{
+      width: 728px;
+    }
+    .items_step_line{
+      position: absolute;
+      margin-left: 40px;
+      margin-top: 39px;
+    }
+  }
+  .language-items_step{
+    .items_step_image{
+      margin-left: 110px;
+    }
+  }
+  .nlp-items_step{
+    .items_step_image{
+      margin-left: 220px;
+    }
+  }
+  .health-items_step{
+    .items_step_image{
+      margin-left: 110px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1115px){
+  .ask-container{
+    .ask-content{
+      margin-top: 330px;
+      .ask-content__items{
+        .ask-content__items_step{
+
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .ask-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 510px;
+    .ask-content {
+      width: 100%;
+      border-radius: initial;
+      height: 2306px;
+      margin-top: 0;
+      .ask-content__items{
+        .ask-content__items_step{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-left: 0;
+          margin-left: 25px;
+          .ask-content__items_step_text{
+            //width: 750px;
+            width: 750px;
+            text-align: center;
+          }
+          .items_step_image{
+            margin-bottom: -15px;
+          }
+          .items_step_line{
+            display: none;
+          }
+        }
+        .language-items_step{
+          .items_step_image{
+            margin-left: 0px;
+          }
+        }
+        .nlp-items_step{
+          .items_step_image{
+            margin-left: 0px;
+          }
+        }
+        .health-items_step{
+          .items_step_image{
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .ask-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 510px;
+    .ask-content {
+      width: 100%;
+      border-radius: initial;
+      .ask-content__items{
+        .ask-content__items_step{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-left: 0;
+          .ask-content__items_step_text{
+            //width: 750px;
+            width: 550px;
+            text-align: center;
+            h3{
+              font-size: 24px;
+              width: 100%;
+              margin-left: 0;
+            }
+            p{
+              margin-left: 0;
+            }
+          }
+          .items_step_image{
+            margin-bottom: -15px;
+          }
+        }
+        .language-items_step{
+          .items_step_image{
+            margin-left: 0px;
+          }
+        }
+        .nlp-items_step{
+          .items_step_image{
+            margin-left: 0px;
+          }
+        }
+        .health-items_step{
+          .items_step_image{
+            margin-left: 0px;
+          }
+        }
+      }
+      .ask-content_title{
+        p{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px){
+  .ask{
+    .ask-container{
+      width: 100%;
+      padding: 0;
+      .ask-content{
+        //width: 100%;
+        .ask-content_title{
+          h2{
+            margin-top: 78px;
+            font-size: 36px;
+            line-height: 36px;
+            text-align: center;
+          }
+          p{
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            width: 311px;
+            br{
+              display: none;
+            }
+          }
+        }
+        .ask-content__items{
+          display: flex;
+          flex-direction: column;
+          .ask-content__items_step{
+            margin-left: 0;
+            display: flex;
+            .items_step_image{
+              margin-left: -20px;
+            }
+            .ask-content__items_step_text{
+              width: 311px;
+              height: 168px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              h3{
+                margin-left: 0;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 28px;
+              }
+              p{
+                margin-left: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                width: 263px;
+                margin-left: 0;
+                margin-right: 0;
+              }
+            }
+            .nlp_step_text{
+              height: 116px;
+            }
+            .health_step_text{
+              height: 140px;
+            }
+            .vision_step_text{
+              height: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
